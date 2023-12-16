@@ -1,0 +1,118 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;;
+    background-color: rgba(32,33,36,255)
+
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-bar {
+    float: right;
+}
+
+#nav-bar li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#nav-bar .entrar {
+    background-color: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.google img {
+    display: block;
+    margin: auto;
+    clear: both;
+    
+}
+
+.form {
+    text-align: center;
+}
+
+.barra {
+    width: 750px;
+    line-height: 54px;
+    border-radius: 35px;
+    background-color: rgba(32,33,36,255);
+    border: 2px solid #555454;
+    font-size: 20px;
+    color:#bdc1c6;
+    
+}
+
+.buttom {
+    padding: 25px;
+    text-align: center;
+    
+
+}
+.pesquisa {
+    background-color:  rgb(56, 55, 55);
+    color:#bdc1c6;
+    font-size: 17px;
+    padding: 12px 15px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 12px;
+
+}
+.sorte {
+    background-color:  rgb(56, 55, 55);
+    color:#bdc1c6;
+    font-size: 17px;
+    padding: 12px 15px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(24, 23, 23);
+    border-top: solid 2px #ccc;
+    position:fixed ;
+    bottom: 0%;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: #ccc;
+    font-size: 18px;
+    padding: 15px;
+    margin: 0;
+}
+
+.footer-esquerdo{
+    float: left;
+}
+.footer-direito{
+    float: right;
+}
+
+.barra:hover {
+    background-color: #3b3a3a;
+    box-shadow: 0px 3px 8px #3b3d3a;
+    text-decoration: none;
+}
+.pesquisa:hover {
+    border: 1px solid #535353;
+}
+.sorte:hover {
+   border: 1px solid #535353;
+}
+
